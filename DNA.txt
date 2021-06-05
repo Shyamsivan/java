@@ -1,0 +1,10 @@
+public class DNA
+{
+public static void main(String[] args)
+{
+	//printing DNA sequence
+String dna= "ATACGATACAA";
+
+System.out.println(dna);
+}
+}

@@ -1,0 +1,12 @@
+public class Concatenation
+{
+public static void main(String[] args)
+{
+	//concatenate OF two DNA sequences
+String dna1="ATGCCAATATGC";
+String dna2="_CAGTCAGCTATG";
+System.out.println("First seq: " +dna1);
+System.out.println("Second seq: " +dna2);
+System.out.println("Concatenate: " +dna1.concat(dna2));
+}
+}
