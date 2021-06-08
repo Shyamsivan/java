@@ -1,0 +1,33 @@
+import java.util.Arrays;
+
+import java.util.*;
+
+public class Main
+ 
+{
+
+	
+public static void main(String[] args)
+ 
+	{
+		
+String[] aa = {"Glycine","Histidine","Isoleucine","Leucine","Lysine","Alanine","Arginine","Asparagine","Aspartic acid","Cysteine","Glutamine","Methionine","Pheylalanine","Proline","serine","Threonine","Tryptophan","Tyrosine","Valine"};
+
+		Arrays.sort(aa);
+
+		System.out.println(Arrays.toString(aa));
+
+		Arrays.sort(aa, Collections.reverseOrder());
+
+		System.out.println(Arrays.toString(aa));
+	
+}
+
+
+}
+
+
+
+OUTPUT:
+[Alanine, Arginine, Asparagine, Aspartic acid, Cysteine, Glutamine, Glycine, Histidine, Isoleucine, Leucine, Lysine, Methionine, Pheylalanine, Proline, Threonine, Tryptophan, Tyrosine, Valine, serine]
+[serine, Valine, Tyrosine, Tryptophan, Threonine, Proline, Pheylalanine, Methionine, Lysine, Leucine, Isoleucine, Histidine, Glycine, Glutamine, Cysteine, Aspartic acid, Asparagine, Arginine, Alanine]
