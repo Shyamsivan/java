@@ -13,7 +13,7 @@ public class HelloWorld {
     
   public static  void Name(int number)
     {
-      String name="Amal S Raj";
+      String name="Shyam";
       while(number!=0)
       {
         System.out.println(name);
